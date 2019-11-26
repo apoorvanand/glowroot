@@ -72,7 +72,7 @@
     <dependency>
       <groupId>org.infinispan</groupId>
       <artifactId>infinispan-core</artifactId>
-      <version>9.4.1.Final</version>
+      <version>10.0.0.Final</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -319,7 +319,7 @@
                 <prerequisite>/usr/bin/getent</prerequisite>
               </prerequisites>
               <requires>
-                <require>jre &gt;= 1.8</require>
+                <require>jre >= 1.8</require>
               </requires>
               <provides>
                 <provide>user(glowroot)</provide>
@@ -327,8 +327,8 @@
               </provides>
               <!-- create glowroot user and group -->
               <beforeInstallation>
-                getent group glowroot &gt; /dev/null || groupadd -r glowroot
-                getent passwd glowroot &gt; /dev/null || useradd -g glowroot -M -r glowroot -d /var/run/glowroot-central
+                getent group glowroot > /dev/null || groupadd -r glowroot
+                getent passwd glowroot > /dev/null || useradd -g glowroot -M -r glowroot -d /var/run/glowroot-central
                 if [ $1 -eq 2 ] ; then systemctl stop glowroot-central.service; fi
               </beforeInstallation>
               <!-- (re)start the collector upon upgrade assuming that it's already correctly configured -->
@@ -342,7 +342,7 @@
               </beforeRemoval>
               <!-- remove glowroot user and group upon un-installation -->
               <afterRemoval>
-                if [ $1 -eq 0 ] ; then userdel glowroot &amp;&amp; groupdel glowroot 2&gt; /dev/null; fi
+                if [ $1 -eq 0 ] ; then userdel glowroot &amp;&amp; groupdel glowroot 2> /dev/null; fi
                 systemctl daemon-reload
               </afterRemoval>
               <rulesets>
