@@ -91,7 +91,7 @@
 
   <properties>
     <!-- grpc 1.15.0+ requires Java 7+ -->
-    <grpc.version>1.14.0</grpc.version>
+    <grpc.version>1.35.0</grpc.version>
     <!-- protobuf 3.6.0+ requires Java 7+ -->
     <protobuf.version>3.5.1</protobuf.version>
     <protoc.version>3.5.1</protoc.version>
@@ -348,7 +348,7 @@
                 <requireMavenVersion>
                   <version>[3.3.1,)</version>
                 </requireMavenVersion>
-                <requireUpperBoundDeps />
+                <requireUpperBoundDeps/>
               </rules>
             </configuration>
           </execution>
@@ -556,7 +556,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -569,7 +569,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -582,7 +582,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -595,7 +595,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -608,7 +608,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -621,7 +621,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -817,9 +817,9 @@
             <artifactId>maven-enforcer-plugin</artifactId>
             <configuration>
               <rules>
-                <requireReleaseDeps />
-                <requireReleaseVersion />
-                <requirePluginVersions />
+                <requireReleaseDeps/>
+                <requireReleaseVersion/>
+                <requirePluginVersions/>
               </rules>
             </configuration>
           </plugin>
