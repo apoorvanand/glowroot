@@ -278,7 +278,7 @@
         <groupId>com.ning</groupId>
         <artifactId>async-http-client</artifactId>
         <!-- async-http-client 1.9.0+ requires Java 7+ -->
-        <version>1.8.17</version>
+        <version>1.9.22</version>
       </dependency>
       <dependency>
         <groupId>org.hsqldb</groupId>
@@ -348,7 +348,7 @@
                 <requireMavenVersion>
                   <version>[3.3.1,)</version>
                 </requireMavenVersion>
-                <requireUpperBoundDeps />
+                <requireUpperBoundDeps/>
               </rules>
             </configuration>
           </execution>
@@ -556,7 +556,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -569,7 +569,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -582,7 +582,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -595,7 +595,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -608,7 +608,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -621,7 +621,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -817,9 +817,9 @@
             <artifactId>maven-enforcer-plugin</artifactId>
             <configuration>
               <rules>
-                <requireReleaseDeps />
-                <requireReleaseVersion />
-                <requirePluginVersions />
+                <requireReleaseDeps/>
+                <requireReleaseVersion/>
+                <requirePluginVersions/>
               </rules>
             </configuration>
           </plugin>
