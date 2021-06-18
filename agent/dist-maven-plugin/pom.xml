@@ -32,13 +32,13 @@
       <groupId>org.apache.maven</groupId>
       <artifactId>maven-plugin-api</artifactId>
       <!-- version should match requireMavenVersion in parent pom -->
-      <version>3.3.1</version>
+      <version>3.5.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.maven</groupId>
       <artifactId>maven-core</artifactId>
       <!-- version should match requireMavenVersion in parent pom -->
-      <version>3.3.1</version>
+      <version>3.6.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.maven.plugin-tools</groupId>
